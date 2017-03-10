@@ -1,4 +1,4 @@
-package com.ups.example;
+package com.ups;
 
 import static spark.Spark.*;
 

@@ -10,11 +10,6 @@
 
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
-
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
 	
        <dependencies>
         <dependency>
@@ -22,21 +17,7 @@
             <artifactId>spark-core</artifactId>
             <version>2.0.0</version>
         </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>1.7.5</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>mongo-java-driver</artifactId>
-            <version>2.11.3</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.2.4</version>
-        </dependency>
+       
 </dependencies>
    
 </project>
